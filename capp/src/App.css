@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+@media (max-aspect-ratio: 7/10){
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    
+    .header{
+        height: 10% !important;
+    }
+    .header>h2{
+        margin: 8vw !important;
+        font-size: 5vw !important;
+    }
+    .header img{
+        margin: 6vw;
+        transform: scale(2) !important;
+        cursor: pointer;
+    }
+    .chatBox{
+        height: 80%;
+    }
+    .inputBox{
+        height: 10% !important;
+    }
+    #chatInput{   
+        padding: 4vw !important;
+        font-size: 4vw !important;
+    }
+     
+    .messageBox{
+        padding: 3vw !important;
+        margin: 3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 3.5vw !important;
+    }
+}
